@@ -2,7 +2,7 @@ Package: elasticsearch
 Version: [[version]]
 Architecture: all
 Maintainer: Elasticsearch Team <info@elasticsearch.com>
-Depends: libc6, adduser
+Depends: libc6, adduser, java7-runtime-headless | java6-runtime-headless | j2re1.7
 Section: web
 Priority: optional
 Homepage: http://www.elasticsearch.org/
